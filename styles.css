@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto;700&display=swap');
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;       
+}
+
+.upper {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext,
+a {
+    font-size: 18px;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+button, .cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.Quotes {
+    background-color: #E5E7EB;
+}
+
+.Quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.placeholder {
+    background-color: grey;
+    width: 600px;
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
