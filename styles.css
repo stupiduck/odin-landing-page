@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto;700&display=swap');
 
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin:0;
+    /* overflow: hidden; */
 }
 ul {
     list-style: none;
     padding:0;
-    margin:0;       
+    margin:0; 
+    display: flex; 
+    gap: 15px;     
 }
-
+.upper,
+.rand,
+.Quotes,
+.cta {
+    padding: 0 14%;
+}
 .upper {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -20,6 +32,7 @@ ul {
 }
 
 .subtext,
+.Footer, 
 a {
     font-size: 18px;
 }
@@ -31,6 +44,7 @@ a {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 button, .cta {
@@ -57,9 +71,48 @@ button, .cta {
 
 .placeholder {
     background-color: grey;
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.Footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 120px;
+}
+
+.hero-container {
+    display: flex;
+    margin-bottom: 120px;
+    gap: 30px;
+}
+
+.hero-part {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    margin-right: 0px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
 }
